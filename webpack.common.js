@@ -23,11 +23,15 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|gif)$/,
-        use: ['file-loader'],
+        use: 'file-loader',
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
-        use: ['file-loader'],
+        use: 'file-loader',
+      },
+      {
+        test: /\.txt$/i,
+        use: 'raw-loader',
       },
     ],
   },
@@ -36,6 +40,17 @@ module.exports = {
       react: path.resolve(__dirname, 'node_modules/react'),
       recoil: path.resolve(__dirname, 'node_modules/recoil'),
       'react-dom': path.resolve(__dirname, 'node_modules/react-dom'),
+      immer: path.resolve(__dirname, 'node_modules/immer'),
+      immerx: path.resolve(__dirname, 'node_modules/immerx'),
+      'immerx-react': path.resolve(__dirname, 'node_modules/immerx-react'),
+      'immerx-middleware': path.resolve(
+        __dirname,
+        'node_modules/immerx-middleware',
+      ),
+      'immerx-devtools': path.resolve(
+        __dirname,
+        'node_modules/immerx-devtools',
+      ),
     },
   },
   plugins: [
