@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react'
-import { useImmerx } from 'immerx-react'
-import { createDraft, finishDraft } from 'immer'
+import { useImmerx } from '@immerx/react'
 
 import { Todo } from './Todo'
 import { ListFooter } from './ListFooter'

@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { useImmerx } from 'immerx-react'
+import { useImmerx } from '@immerx/react'
 import { v4 as uuid } from 'uuid'
 import { isEnterKey } from '../common/isEnterKey'
 

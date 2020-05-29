@@ -1,3 +1,3 @@
-#### TodoMVC
+<img src="images/immerx-todomvc-logo.svg" height="70px"/>
 
-Showcasing [immerx](https://github.com/monojack/immerx), [immerx-react](https://github.com/monojack/immerx-react), [immerx-middleware](https://github.com/monojack/immerx-middleware) and [immerx-devtools](https://github.com/monojack/immerx-devtools)
+Showcasing [`@immerx/state`](https://github.com/monojack/immerx), [`@immerx/react`](https://github.com/monojack/immerx-react) & [`@immerx/devtools`](https://github.com/monojack/immerx-devtools)

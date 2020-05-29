@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect, useMemo } from 'react'
-import { useImmerx } from 'immerx-react'
+import { useImmerx } from '@immerx/react'
 import { isEnterKey } from '../common/isEnterKey'
 import { isEscapeKey } from '../common/isEscapeKey'
 
