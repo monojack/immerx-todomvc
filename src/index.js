@@ -5,7 +5,11 @@ import { createDevToolsMiddleware } from '@immerx/devtools'
 
 import { App } from './components/App'
 
-const devToolsMiddleware = createDevToolsMiddleware()
+import './styles.css'
+
+const devToolsMiddleware = createDevToolsMiddleware({
+  inline: document.getElementById('devtools'),
+})
 create(
   {
     todos: [

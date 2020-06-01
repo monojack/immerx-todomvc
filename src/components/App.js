@@ -8,12 +8,12 @@ import { Footer } from './Footer'
 
 export function App() {
   return (
-    <>
+    <div id="app">
       <section className="todoapp" key={'app-section'}>
         <Header />
         <TodoList />
       </section>
       <Footer />
-    </>
+    </div>
   )
 }

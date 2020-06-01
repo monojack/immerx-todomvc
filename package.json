@@ -61,6 +61,7 @@
     "webpack-stylish": "^0.1.8"
   },
   "dependencies": {
+    "@immerx/devtools": "^0.2.0",
     "@immerx/react": "^1.0.0",
     "@immerx/state": "^3.2.1",
     "immer": "^6.0.8",
