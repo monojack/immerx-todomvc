@@ -1,6 +1,6 @@
 {
   "name": "hello-world",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Immerx TodoMVC",
   "main": "index.js",
   "scripts": {
